@@ -1,0 +1,12 @@
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base="dark"
+primaryColor="#646ee4"
+backgroundColor="#121212"
+secondaryBackgroundColor="#252525"
+baseRadius="0.5rem"
+
+[server]
+runOnSave = true
