@@ -103,7 +103,7 @@ hero_section()
 
 
 # How it works section with video
-video_section()
+# video_section()
 
 
 # Features section
