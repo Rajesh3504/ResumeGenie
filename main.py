@@ -2,7 +2,7 @@ import streamlit as st
 from pathlib import Path
 
 st.set_page_config(
-    page_title="ResumeX - Professional Resume Builder",
+    page_title="ResumeGenie - Professional Resume Builder",
     page_icon="Static/icon.svg",
     layout="wide",
     initial_sidebar_state="collapsed"
