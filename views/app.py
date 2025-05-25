@@ -373,7 +373,7 @@ with builder:
 
             col4, col5 = st.columns(2)
             with col4:
-                linkedin = st.text_input("LinkedIn Link", st.session_state.data["linkedin"])
+                linkedin = st.text_input("LinkedIn Link/Portfolio Link", st.session_state.data["linkedin"])
             with col5:
                 github = st.text_input("GitHub Link", st.session_state.data["github"])
 
@@ -425,9 +425,9 @@ with builder:
                 if not is_valid_phone(phone):
                     st.toast(":red-badge[:material/error: Please enter a valid phone number.]")
                     error = True
-                if linkedin and not is_valid_url(linkedin):
-                    st.toast(":red-badge[:material/error: Please enter a valid LinkedIn URL.]")
-                    error = True
+                # if linkedin and not is_valid_url(linkedin):
+                #     st.toast(":red-badge[:material/error: Please enter a valid LinkedIn URL.]")
+                #     error = True
                 if github and not is_valid_url(github):
                     st.toast(":red-badge[:material/error: Please enter a valid GitHub URL.]")
                     error = True
