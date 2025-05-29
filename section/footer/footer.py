@@ -24,7 +24,7 @@ def footer_section():
   <div class='footer'>
       <p>© 2025 ResumeGenie | Professional Resume Builder & Enhancer</p>
       <p style='font-size: 0.9rem; margin-top: 0.5rem;'>
-          Built with ❤️ by Rajesh
+          Built by Rajesh
       </p>
   </div>
   """, unsafe_allow_html=True)
