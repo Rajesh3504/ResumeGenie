@@ -107,13 +107,13 @@ hero_section()
 
 
 # Features section
-# features_section()
+features_section()
 
 
 
 
 # CTA section
-# cta_section()
+cta_section()
 
 
 # Footer
